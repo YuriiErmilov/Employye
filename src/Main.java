@@ -30,7 +30,7 @@ public class Main {
         employeeBook.indexDepartmentSalary(3,10);
         employeeBook.printAllEmployees();
 
-        System.out.println(" Первые 3 отдела с зарплатой выше 200: ");
+        System.out.println(" Первые сотрудник 3-его отдела с зарплатой выше 200: ");
         employeeBook.findFirstByDeptSalary(3, 200);
         employeeBook.printAllEmployees();
 

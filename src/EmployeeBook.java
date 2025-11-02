@@ -72,7 +72,7 @@ public class EmployeeBook {
     }
 
     public void findFirstByDeptSalary(int department, int salaryLimit) {
-        for (int i = 0; i <= salaryLimit; i++) {
+        for (int i = 0; i <= employees.length; i++) {
             Employee e = employees[i];
             if (e == null) {
                 break;
